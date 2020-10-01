@@ -1,0 +1,191 @@
+/* === GENERELLES ===*/
+
+#nav-active {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #2daeeb;
+}
+
+/* === NAVIGATIONSLEISTE ===*/
+
+.bg-color {
+  background-color: #3b3b3b;
+}
+
+#nav-dropdown:focus {
+  visibility: hidden;
+}
+
+#nav-dropdown:hover {
+  color: #2daeeb;
+}
+
+#nav-dropdown {
+  color: white;
+  font-size: 20px;
+}
+
+#dropdown-nav-link {
+  color: white;
+}
+
+#dropdown-nav-link:hover {
+  text-decoration: none;
+  color: #2daeeb;
+}
+
+.dropdown-menu {
+  background-color: #3b3b3b;
+}
+
+#nav-brand {
+  color: #2daeeb;
+  font-size: 30px;
+}
+
+#nav-list {
+  margin-left: 1.2rem;
+}
+
+#nav-brand:hover {
+  text-decoration: none;
+}
+
+#nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+#nav-link:hover {
+  color: #2daeeb;
+}
+
+#btn-default {
+  border-color: #2daeeb;
+  color: white;
+}
+
+#btn-default:hover {
+  background-color: #2daeeb;
+  color: white;
+}
+
+/* === HEADER ===  */
+
+#header {
+  padding-top: 2rem;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* === Carousel ===*/
+
+#carousel-imgs {
+  border-image-slice: 1;
+  height: 300px;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+#carousel-titel {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+#carousel-text {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+/* === LANDING PAGE === */
+
+#landing-page-container {
+  background-color: #3b3b3b;
+  height: 98vh;
+}
+
+#landing-page-left {
+  padding: 0;
+  padding-top: 1rem;
+}
+
+#landing-page-title {
+  color: #2daeeb;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.landing-page-text {
+  color: white;
+  margin-right: 2rem;
+}
+
+#landing-page-ul {
+  list-style: none;
+}
+
+#landing-page-ul > li {
+  padding-top: 2rem;
+}
+
+#landing-page-btn {
+  border-color: #2daeeb;
+  color: white;
+  margin-top: 2rem;
+}
+
+#landing-page-btn:hover {
+  background-color: #2daeeb;
+  margin-top: 2rem;
+}
+
+#landing-page-ok-icon {
+  color: #2daeeb;
+}
+
+#landing-page-img {
+  height: 95%;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: auto;
+}
+
+/* === Footer === */
+
+#footer {
+  background-color: #3b3b3b;
+}
+
+.footer-icon {
+  height: 16px;
+  width: 16px;
+}
+
+#footer-socialmedia-list {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+#footer-socialmedia-list > li {
+  margin-top: 0.5rem;
+}
+
+#footer-socialmedia-list > li > a {
+  color: white;
+}
+
+#footer-socialmedia-list > li > a:hover {
+  text-decoration: none;
+  color: #2daeeb;
+}
+
+#footer h6 {
+  color: white;
+  border-bottom: 1px solid white;
+}
